@@ -1,3 +1,3 @@
 # Pet-Store-Project-Sass
 
-##Hi there, thanks for passing by!
+## Hi there, thanks for passing by!
