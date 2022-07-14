@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DamperDoor56/Pet-Store-Project-Sass/issues"
   },
-  "homepage": "https://github.com/DamperDoor56/Pet-Store-Project-Sass#readme"
+  "homepage": "https://github.com/DamperDoor56/Pet-Store-Project-Sass#readme",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
 }
