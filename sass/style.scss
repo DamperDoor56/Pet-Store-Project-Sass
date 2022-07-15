@@ -32,6 +32,17 @@ $assetPath :"/assets/beautiful-pet-portrait-dog.jpg";
         background: $dark;
     }
 }
+@mixin white-btn {
+    color: $white;
+    border-color: $white;
+
+    &:hover{
+        color: $dark;
+    }
+    &::before{
+        background: $white;
+    }
+}
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -218,6 +229,9 @@ body{
     }
     span{
         color: $light-color;
+    }
+    .btn{
+        @include white-btn();
     }
 }
 

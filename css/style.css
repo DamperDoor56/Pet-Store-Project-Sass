@@ -199,6 +199,16 @@ section {
 .content span {
   color: #007bce;
 }
+.content .btn {
+  color: #fff;
+  border-color: #fff;
+}
+.content .btn:hover {
+  color: #242423;
+}
+.content .btn::before {
+  background: #fff;
+}
 
 @media (max-width: 991px) {
   html {
