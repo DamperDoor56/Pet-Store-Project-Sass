@@ -15,11 +15,19 @@ document.querySelector('#menu-btn').onclick = () =>{
 
 //Navbar transparent & colored on scroll
 window.onscroll = () => {
-    if(window.scrollY > 300){
+    if(window.scrollY > 350){
         document.querySelector('.header').classList.add('active');
-        document.querySelector('.btn').classList.add('active');
+        document.querySelector('.hover-me').classList.add('pop');
+        document.querySelector('.hover-it').classList.add('pop');
+        document.querySelector('.hover-ye').classList.add('pop');
+        document.querySelector('.hover-te').classList.add('pop');
+        document.querySelector('.hover-mi').classList.add('pop');
     } else {
         document.querySelector('.header').classList.remove('active');
-        document.querySelector('.btn').classList.remove('active');
+        document.querySelector('.hover-me').classList.remove('pop');
+        document.querySelector('.hover-it').classList.remove('pop');
+        document.querySelector('.hover-ye').classList.remove('pop');
+        document.querySelector('.hover-te').classList.remove('pop');
+        document.querySelector('.hover-mi').classList.remove('pop');
     }
 }

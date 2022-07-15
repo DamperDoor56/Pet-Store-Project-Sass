@@ -53,12 +53,74 @@ body {
   width: 8.5%;
   margin-top: -1.2rem;
 }
-.header .navbar a {
+.header .hover-me {
   margin: 0 1rem;
   font-size: 1.7rem;
+  color: #fff;
+}
+.header .hover-me:hover {
+  color: #007bce;
+}
+.header .hover-me.pop {
   color: #242423;
 }
-.header .navbar a:hover {
+.header .hover-me.pop:hover {
+  color: #007bce;
+}
+.header .hover-it {
+  margin: 0 1rem;
+  font-size: 1.7rem;
+  color: #fff;
+}
+.header .hover-it:hover {
+  color: #007bce;
+}
+.header .hover-it.pop {
+  color: #242423;
+}
+.header .hover-it.pop:hover {
+  color: #007bce;
+}
+.header .hover-ye {
+  margin: 0 1rem;
+  font-size: 1.7rem;
+  color: #fff;
+}
+.header .hover-ye:hover {
+  color: #007bce;
+}
+.header .hover-ye.pop {
+  color: #242423;
+}
+.header .hover-ye.pop:hover {
+  color: #007bce;
+}
+.header .hover-te {
+  margin: 0 1rem;
+  font-size: 1.7rem;
+  color: #fff;
+}
+.header .hover-te:hover {
+  color: #007bce;
+}
+.header .hover-te.pop {
+  color: #242423;
+}
+.header .hover-te.pop:hover {
+  color: #007bce;
+}
+.header .hover-mi {
+  margin: 0 1rem;
+  font-size: 1.7rem;
+  color: #fff;
+}
+.header .hover-mi:hover {
+  color: #007bce;
+}
+.header .hover-mi.pop {
+  color: #242423;
+}
+.header .hover-mi.pop:hover {
   color: #007bce;
 }
 

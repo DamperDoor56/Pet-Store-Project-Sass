@@ -83,16 +83,83 @@ body{
         width: 8.5%;
         margin-top: -1.2rem;
    }
-   .navbar a{
+   .hover-me{ 
     margin: 0 1rem;
     font-size: 1.7rem;
-    color: $dark;
+    color: $white;
 
     &:hover{
         color: $light-color;
     }
-  }
+    &.pop { 
+        color:$dark;
+        &:hover{
+            color: $light-color;
+        }
+    }  
+ }  
+ .hover-it{ 
+    margin: 0 1rem;
+    font-size: 1.7rem;
+    color: $white;
+
+    &:hover{
+        color: $light-color;
+    }
+    &.pop { 
+        color:$dark;
+        &:hover{
+            color: $light-color;
+        }
+    }  
+ }  
+ .hover-ye{ 
+    margin: 0 1rem;
+    font-size: 1.7rem;
+    color: $white;
+
+    &:hover{
+        color: $light-color;
+    }
+    &.pop { 
+        color:$dark;
+        &:hover{
+            color: $light-color;
+        }
+    }  
+ }  
+ .hover-te{ 
+    margin: 0 1rem;
+    font-size: 1.7rem;
+    color: $white;
+
+    &:hover{
+        color: $light-color;
+    }
+    &.pop { 
+        color:$dark;
+        &:hover{
+            color: $light-color;
+        }
+    }  
+ }  
+ .hover-mi{ 
+    margin: 0 1rem;
+    font-size: 1.7rem;
+    color: $white;
+
+    &:hover{
+        color: $light-color;
+    }
+    &.pop { 
+        color:$dark;
+        &:hover{
+            color: $light-color;
+        }
+    }  
+ }  
 }
+
 .icons a, .icons div{
     font-size: 3rem;
     margin-left:2.5rem;
@@ -139,6 +206,7 @@ body{
  #menu-btn{
     display: none;
 }
+
 //Login form 
 .login-form{
     position: absolute;
