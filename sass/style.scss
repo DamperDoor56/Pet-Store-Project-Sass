@@ -13,7 +13,7 @@
 }
 $dark: #242423;
 $white: #fff;
-$light-color: #9dd3f7;
+$light-color: #007bce;
 $ligth-bg: #eee;
 $border: .2rem solid #242423;
 $box-shadow: 0 0.5rem 1rem rgba(3, 3, 3, 0.301);
@@ -89,14 +89,14 @@ body{
     cursor: pointer;
 
     &:hover{
-        color:$light-color ;
+        color:$light-color;
     } 
 }
 .btn{
     display: inline-block;
     margin-top: 1rem;
     padding:  0.8rem 2.8rem;
-    border-radius: 5rem;
+    border-radius: 5rem ;
     border-top-left-radius:0%; 
     border: $border;
     cursor: pointer;
@@ -112,7 +112,7 @@ body{
         top: 0; left: 0;
         height: 100%;
         width: 100%;
-        background: $white;
+        background: $light-color;
         z-index: -1;
         transition: 0.2s linear;
         clip-path: circle(0% at 0% 5%);
@@ -122,7 +122,7 @@ body{
     }
 
     &:hover{
-        color: black;
+        color: $white;
     }
 }
  #menu-btn{
@@ -199,12 +199,27 @@ body{
     align-items: center;
     justify-content: flex-end;
     background: url(/assets/beautiful-pet-portrait-dog.jpg);
-    background-position: end;
+    background-position: -5rem ;
     background-size: cover;
+    position: relative;
  }
 
+ section{
+    padding: 5rem;
+ }
+ .content{
+    width: 50rem;
+    margin-left: 2.5rem;
 
-
+    h3{
+        font-size: 6rem;
+        color: $white;
+        padding-bottom: 1rem;
+    }
+    span{
+        color: $light-color;
+    }
+}
 
 
 
@@ -229,6 +244,9 @@ body{
     .header{
         padding: 2rem;
     }
+    section{
+        padding: 5rem 2rem;
+     }
 }
 @media (max-width: 768px) {
     #menu-btn{
