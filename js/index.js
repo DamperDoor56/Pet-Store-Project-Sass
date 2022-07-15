@@ -15,7 +15,7 @@ document.querySelector('#menu-btn').onclick = () =>{
 
 //Navbar transparent & colored on scroll
 window.onscroll = () => {
-    if(window.scrollY > 350){
+    if(window.scrollY > 360){
         document.querySelector('.header').classList.add('active');
         document.querySelector('.hover-me').classList.add('pop');
         document.querySelector('.hover-it').classList.add('pop');
