@@ -305,27 +305,52 @@ body{
         @include white-btn();
     }
 }
+.wave{
+    position: absolute;
+    bottom: 0; left: 0%;
+    width: 100%;
+    height: 10rem;
+}
 
 //About Section
-#image{
-    width: 50%;
-}
-.content2{
-    width: 50rem;
-    margin-left: 2.5rem;
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 
-    h3{
-        font-size: 6rem;
-        color: $white;
-        padding-bottom: 1rem;
+    #image{
+        flex: 1 1 40rem;
     }
-    span{
-        color: $light-color;
+    img{
+        width: 100%;
     }
+    .content2{
+        flex: 1 1 40rem;
+    
+        h4{
+            font-size: 4rem;
+            color: black;
+        }
+        span{
+            color: $light-color;
+        }
+    }
+    p{
+        font-size: 1.6rem;
+        color: $dark;
+        padding: 1rem 0;
+    }
+    
 }
 
-
-
+//Dog and cat food section
+.dog-food, .cat-food{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
 
 
 
@@ -356,6 +381,10 @@ body{
         .content{
             text-align: center;
             padding-bottom: 5rem;
+
+            h3{
+                font-size: 4.5rem;
+            }
         }
     }
 }

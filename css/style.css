@@ -274,21 +274,47 @@ section {
   background: #fff;
 }
 
-#image {
-  width: 50%;
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 100%;
+  height: 10rem;
 }
 
-.content2 {
-  width: 50rem;
-  margin-left: 2.5rem;
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
-.content2 h3 {
-  font-size: 6rem;
-  color: #fff;
-  padding-bottom: 1rem;
+.about #image {
+  flex: 1 1 40rem;
 }
-.content2 span {
+.about img {
+  width: 100%;
+}
+.about .content2 {
+  flex: 1 1 40rem;
+}
+.about .content2 h4 {
+  font-size: 4rem;
+  color: black;
+}
+.about .content2 span {
   color: #007bce;
+}
+.about p {
+  font-size: 1.6rem;
+  color: #242423;
+  padding: 1rem 0;
+}
+
+.dog-food, .cat-food {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 @media (max-width: 991px) {
@@ -308,6 +334,9 @@ section {
   .home .content {
     text-align: center;
     padding-bottom: 5rem;
+  }
+  .home .content h3 {
+    font-size: 4.5rem;
   }
 }
 @media (max-width: 768px) {
