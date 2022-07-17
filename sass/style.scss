@@ -388,8 +388,44 @@ body{
      }
     }
 }
+// Shop section
+.shop{
+    .heading{
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 3.5rem;
+    color: black;
+    span{
+        color: $light-color;
+     }
+    }
+}
 
+.shop .box-container{
+    @include grid(30rem);
 
+    .box{
+        position: relative;
+        overflow: hidden;
+        background: #007cce9f;
+        h3{
+            font-size: 4rem;
+            color: $dark;
+        }
+
+        .image{
+            height: 25rem;
+            width: 100%;
+            overflow: hidden;
+
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}
 
 
 

@@ -349,6 +349,41 @@ section {
   transform: rotate(15deg);
 }
 
+.shop .heading {
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 3.5rem;
+  color: black;
+}
+.shop .heading span {
+  color: #007bce;
+}
+
+.shop .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.shop .box-container .box {
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 124, 206, 0.6235294118);
+}
+.shop .box-container .box h3 {
+  font-size: 4rem;
+  color: #242423;
+}
+.shop .box-container .box .image {
+  height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+.shop .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
