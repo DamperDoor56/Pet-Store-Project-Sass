@@ -363,6 +363,11 @@ section {
 .dog-food .content .btn:hover, .cat-food .content .btn:hover {
   color: #fff;
 }
+.dog-food .content p, .cat-food .content p {
+  padding: 1rem 0;
+  line-height: 2;
+  font-size: 1.6rem;
+}
 
 @media (max-width: 991px) {
   html {
