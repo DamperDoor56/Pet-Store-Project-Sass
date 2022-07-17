@@ -402,14 +402,29 @@ body{
 }
 
 .shop .box-container{
-    @include grid(30rem);
+    @include grid(25rem);
 
     .box{
+        margin-top: 2rem;
         position: relative;
         overflow: hidden;
-        background: #007cce9f;
+        background: rgb(244, 245, 220);
+        border-radius: 2.5rem;
+
+        &:hover{
+            .image img{
+                transform: scale(1.1);
+            }
+        }
+        .icons{
+            position: absolute;
+            top: 1rem;
+            a{
+                font-size: 2rem;
+            }
+        }
         h3{
-            font-size: 4rem;
+            font-size: 2.5rem;
             color: $dark;
         }
 

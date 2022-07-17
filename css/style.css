@@ -361,16 +361,28 @@ section {
 
 .shop .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
 }
 .shop .box-container .box {
+  margin-top: 2rem;
   position: relative;
   overflow: hidden;
-  background: rgba(0, 124, 206, 0.6235294118);
+  background: rgb(244, 245, 220);
+  border-radius: 2.5rem;
+}
+.shop .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+.shop .box-container .box .icons {
+  position: absolute;
+  top: 1rem;
+}
+.shop .box-container .box .icons a {
+  font-size: 2rem;
 }
 .shop .box-container .box h3 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   color: #242423;
 }
 .shop .box-container .box .image {
