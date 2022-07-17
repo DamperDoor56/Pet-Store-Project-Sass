@@ -331,42 +331,22 @@ section {
   font-size: 3.5rem;
   color: #242423 !important;
 }
-.dog-food .content .btn, .cat-food .content .btn {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.8rem 2.8rem;
-  border-radius: 5rem;
-  border-top-left-radius: 0%;
-  border: 0.2rem solid #242423;
-  cursor: pointer;
-  color: #242423;
-  font-size: 1.7rem;
-  overflow: hidden;
-  z-index: 0;
-  position: relative;
-}
-.dog-food .content .btn::before, .cat-food .content .btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: #007bce;
-  z-index: -1;
-  transition: 0.2s linear;
-  clip-path: circle(0% at 0% 5%);
-}
-.dog-food .content .btn:hover::before, .cat-food .content .btn:hover::before {
-  clip-path: circle(100%);
-}
-.dog-food .content .btn:hover, .cat-food .content .btn:hover {
-  color: #fff;
-}
 .dog-food .content p, .cat-food .content p {
   padding: 1rem 0;
   line-height: 2;
   font-size: 1.6rem;
+}
+.dog-food .content .amount, .cat-food .content .amount {
+  font-size: 3.2rem;
+  color: black;
+  padding: 0.5rem 0;
+}
+.dog-food .content a img, .cat-food .content a img {
+  height: 12rem;
+  margin-top: 1rem;
+}
+.dog-food .content a:hover img, .cat-food .content a:hover img {
+  transform: rotate(15deg);
 }
 
 @media (max-width: 991px) {
