@@ -345,11 +345,62 @@ body{
 }
 
 //Dog and cat food section
-.dog-food, .cat-food{
+.dog-food, .cat-food {
     display: flex;
-    align-items: center;
+    align-items: center; 
     flex-wrap: wrap;
-    gap: 2rem;
+    padding: 2rem 0;
+
+    .image{
+        flex: 1 1 40rem;
+        
+        img{
+            width: 100%;
+        }
+    }
+    .content{
+        flex: 1 1 40rem;
+        text-align: center;
+        padding: 2rem;
+        h3{
+            font-size: 3.5rem;
+            color: $dark !important;
+        }
+
+    .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding:  0.8rem 2.8rem; 
+    border-radius: 5rem ;
+    border-top-left-radius:0%; 
+    border: $border;
+    cursor: pointer;
+    color:$dark;
+    font-size: 1.7rem;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0; left: 0;
+        height: 100%;
+        width: 100%;
+        background: $light-color;
+        z-index: -1;
+        transition: 0.2s linear;
+        clip-path: circle(0% at 0% 5%);
+    }
+    &:hover::before{
+        clip-path: circle(100%);
+    }
+
+    &:hover{
+        color: $white;
+    }
+}
+    }
 }
 
 

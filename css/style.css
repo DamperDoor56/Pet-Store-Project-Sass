@@ -314,7 +314,54 @@ section {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  padding: 2rem 0;
+}
+.dog-food .image, .cat-food .image {
+  flex: 1 1 40rem;
+}
+.dog-food .image img, .cat-food .image img {
+  width: 100%;
+}
+.dog-food .content, .cat-food .content {
+  flex: 1 1 40rem;
+  text-align: center;
+  padding: 2rem;
+}
+.dog-food .content h3, .cat-food .content h3 {
+  font-size: 3.5rem;
+  color: #242423 !important;
+}
+.dog-food .content .btn, .cat-food .content .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 2.8rem;
+  border-radius: 5rem;
+  border-top-left-radius: 0%;
+  border: 0.2rem solid #242423;
+  cursor: pointer;
+  color: #242423;
+  font-size: 1.7rem;
+  overflow: hidden;
+  z-index: 0;
+  position: relative;
+}
+.dog-food .content .btn::before, .cat-food .content .btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #007bce;
+  z-index: -1;
+  transition: 0.2s linear;
+  clip-path: circle(0% at 0% 5%);
+}
+.dog-food .content .btn:hover::before, .cat-food .content .btn:hover::before {
+  clip-path: circle(100%);
+}
+.dog-food .content .btn:hover, .cat-food .content .btn:hover {
+  color: #fff;
 }
 
 @media (max-width: 991px) {
