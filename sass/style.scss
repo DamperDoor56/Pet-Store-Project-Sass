@@ -408,9 +408,9 @@ body{
         margin-top: 2rem;
         position: relative;
         overflow: hidden;
-        background: rgb(255, 255, 255);
+        background: rgb(226, 226, 226);
         border-radius: 1rem;
-        border: 0.1px solid rgb(204, 204, 204);
+        border: 0.1px solid rgb(216, 216, 216);
 
         &:hover{
             .image img{
@@ -420,7 +420,7 @@ body{
         }
         .content{
             width: 100%;
-            background-color: #007cce46;
+            background-color: white;
             margin: 0% ;
         }
         .amount{
@@ -446,9 +446,10 @@ body{
            
         }
         .stars{
-            font-size: 1.5rem;
-            color: rgb(240, 240, 128);
+            font-size: 2rem;
+            color: rgb(207, 207, 70);
         }
+        
         h3{
             font-size: 2rem;
             color: $dark;
@@ -469,6 +470,45 @@ body{
     }
 }
 
+.buttons{
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0.5rem, 0.5fr));
+    .butns{
+        background: white;
+        display: inline-block;
+        padding: 1rem; 
+        border-radius: 0; 
+        cursor: pointer;
+        color:$dark;
+        font-size: 1.7rem;
+        overflow: hidden;
+        z-index: 0;
+        position: relative;
+
+    &::before{
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    background: $light-color;
+    z-index: -1;
+    transition: 0.2s linear;
+    clip-path: circle(0% at 0% 5%);
+}
+&:hover::before{
+    clip-path: circle(80%);
+}
+
+&:hover{
+    color: $white;
+}
+
+}
+
+
+}
 
 
 

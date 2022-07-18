@@ -368,9 +368,9 @@ section {
   margin-top: 2rem;
   position: relative;
   overflow: hidden;
-  background: rgb(255, 255, 255);
+  background: rgb(226, 226, 226);
   border-radius: 1rem;
-  border: 0.1px solid rgb(204, 204, 204);
+  border: 0.1px solid rgb(216, 216, 216);
 }
 .shop .box-container .box:hover {
   box-shadow: 0 0.5rem 1rem rgba(3, 3, 3, 0.301);
@@ -380,7 +380,7 @@ section {
 }
 .shop .box-container .box .content {
   width: 100%;
-  background-color: rgba(0, 124, 206, 0.2745098039);
+  background-color: white;
   margin: 0%;
 }
 .shop .box-container .box .amount {
@@ -403,8 +403,8 @@ section {
   color: red;
 }
 .shop .box-container .box .stars {
-  font-size: 1.5rem;
-  color: rgb(240, 240, 128);
+  font-size: 2rem;
+  color: rgb(207, 207, 70);
 }
 .shop .box-container .box h3 {
   font-size: 2rem;
@@ -420,6 +420,42 @@ section {
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+
+.buttons {
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0.5rem, 0.5fr));
+}
+.buttons .butns {
+  background: white;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 0;
+  cursor: pointer;
+  color: #242423;
+  font-size: 1.7rem;
+  overflow: hidden;
+  z-index: 0;
+  position: relative;
+}
+.buttons .butns::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #007bce;
+  z-index: -1;
+  transition: 0.2s linear;
+  clip-path: circle(0% at 0% 5%);
+}
+.buttons .butns:hover::before {
+  clip-path: circle(80%);
+}
+.buttons .butns:hover {
+  color: #fff;
 }
 
 @media (max-width: 991px) {
