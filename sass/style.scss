@@ -408,24 +408,51 @@ body{
         margin-top: 2rem;
         position: relative;
         overflow: hidden;
-        background: rgb(244, 245, 220);
-        border-radius: 2.5rem;
+        background: rgb(255, 255, 255);
+        border-radius: 1rem;
+        border: 0.1px solid rgb(204, 204, 204);
 
         &:hover{
             .image img{
                 transform: scale(1.1);
             }
+            box-shadow: $box-shadow;
+        }
+        .content{
+            width: 100%;
+            background-color: #007cce46;
+            margin: 0% ;
+        }
+        .amount{
+            font-size: 1.3rem;
+            padding: -1rem 0 0 2rem;
         }
         .icons{
             position: absolute;
             top: 1rem;
-            a{
+            z-index: 100;
+            
+            i{
                 font-size: 2rem;
+                cursor: pointer;
+
+                &:hover{
+                    color: rgb(247, 125, 145);
+                }
+                &:active{
+                    color: red;
+                }
             }
+           
+        }
+        .stars{
+            font-size: 1.5rem;
+            color: rgb(240, 240, 128);
         }
         h3{
-            font-size: 2.5rem;
+            font-size: 2rem;
             color: $dark;
+            padding: 0%;
         }
 
         .image{

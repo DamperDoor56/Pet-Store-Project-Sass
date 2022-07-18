@@ -368,22 +368,48 @@ section {
   margin-top: 2rem;
   position: relative;
   overflow: hidden;
-  background: rgb(244, 245, 220);
-  border-radius: 2.5rem;
+  background: rgb(255, 255, 255);
+  border-radius: 1rem;
+  border: 0.1px solid rgb(204, 204, 204);
+}
+.shop .box-container .box:hover {
+  box-shadow: 0 0.5rem 1rem rgba(3, 3, 3, 0.301);
 }
 .shop .box-container .box:hover .image img {
   transform: scale(1.1);
 }
+.shop .box-container .box .content {
+  width: 100%;
+  background-color: rgba(0, 124, 206, 0.2745098039);
+  margin: 0%;
+}
+.shop .box-container .box .amount {
+  font-size: 1.3rem;
+  padding: -1rem 0 0 2rem;
+}
 .shop .box-container .box .icons {
   position: absolute;
   top: 1rem;
+  z-index: 100;
 }
-.shop .box-container .box .icons a {
+.shop .box-container .box .icons i {
   font-size: 2rem;
+  cursor: pointer;
+}
+.shop .box-container .box .icons i:hover {
+  color: rgb(247, 125, 145);
+}
+.shop .box-container .box .icons i:active {
+  color: red;
+}
+.shop .box-container .box .stars {
+  font-size: 1.5rem;
+  color: rgb(240, 240, 128);
 }
 .shop .box-container .box h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #242423;
+  padding: 0%;
 }
 .shop .box-container .box .image {
   height: 25rem;
