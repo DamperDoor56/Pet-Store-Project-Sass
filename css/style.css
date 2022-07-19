@@ -353,7 +353,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   height: 12vh;
-  background: linear-gradient(15deg, rgba(88, 88, 88, 0.63), rgba(88, 88, 88, 0.596)), url(/assets/close-up-veterinarian-taking-care-dog\ \(1\).jpg);
+  background: linear-gradient(15deg, rgba(73, 73, 73, 0.63), rgba(73, 73, 73, 0.596)), url(/assets/close-up-veterinarian-taking-care-dog\ \(1\).jpg);
   background-size: cover;
   background-position: 0rem -25rem;
   margin-top: 5rem;
@@ -375,7 +375,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   height: 12vh;
-  background: linear-gradient(15deg, rgba(88, 88, 88, 0.63), rgba(88, 88, 88, 0.596)), url(/assets/cute-cat-eating-food-from-bowl.jpg) no-repeat;
+  background: linear-gradient(15deg, rgba(73, 73, 73, 0.63), rgba(73, 73, 73, 0.596)), url(/assets/cute-cat-eating-food-from-bowl.jpg) no-repeat;
   background-size: cover;
   background-position: 0rem -50rem;
   margin-top: 5rem;
@@ -396,7 +396,7 @@ section {
 .shop .heading {
   padding-bottom: 2rem;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: black;
 }
 .shop .heading span {
@@ -500,6 +500,11 @@ section {
 }
 .buttons .butns:hover {
   color: #fff;
+}
+
+.bottom-btn {
+  display: flex;
+  align-self: flex-end;
 }
 
 @media (max-width: 991px) {
