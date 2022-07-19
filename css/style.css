@@ -352,12 +352,12 @@ section {
 .Mini {
   display: flex;
   flex-wrap: wrap;
-  height: 15vh;
-  background: url(/assets/close-up-veterinarian-taking-care-dog\ \(1\).jpg);
+  height: 12vh;
+  background: linear-gradient(15deg, rgba(88, 88, 88, 0.63), rgba(88, 88, 88, 0.596)), url(/assets/close-up-veterinarian-taking-care-dog\ \(1\).jpg);
   background-size: cover;
   background-position: 0rem -25rem;
-  margin-top: 8rem;
-  margin-bottom: 8rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .Mini span {
   color: #007bce;
@@ -365,22 +365,32 @@ section {
 .Mini h3 {
   font-size: 3.5rem;
 }
+.Mini h3 .hre {
+  width: 100%;
+  background: #007bce;
+  height: 0.5rem;
+}
 
 .Mini2 {
   display: flex;
   flex-wrap: wrap;
-  height: 15vh;
-  background: url(/assets/cute-cat-eating-food-from-bowl.jpg);
+  height: 12vh;
+  background: linear-gradient(15deg, rgba(88, 88, 88, 0.63), rgba(88, 88, 88, 0.596)), url(/assets/cute-cat-eating-food-from-bowl.jpg) no-repeat;
   background-size: cover;
-  background-position: 0rem -48rem;
-  margin-top: 8rem;
-  margin-bottom: 8rem;
+  background-position: 0rem -50rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .Mini2 span {
   color: #007bce;
 }
 .Mini2 h3 {
   font-size: 3.5rem;
+}
+.Mini2 h3 .hre {
+  width: 100%;
+  background: #007bce;
+  height: 0.5rem;
 }
 
 .shop .heading {
