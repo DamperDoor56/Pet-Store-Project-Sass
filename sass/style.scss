@@ -559,6 +559,43 @@ body{
     align-self: flex-end;
 }
 
+//Services section
+.heading{
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    span{
+        color: $light-color;
+     }
+    }
+.services .box-container{
+    @include grid(30rem);
+
+    .box{
+        background: #b9e3ff;
+        padding: 3rem;
+        text-align: center;
+        border-radius: 33% 67% 70% 30% / 30% 30% 70% 70% ;
+        &:hover{
+            border-radius: 15%;
+        }
+        i{
+            height: 6.5rem;
+            width: 6.5rem;
+            line-height: 6.5rem;
+            font-size: 3rem;
+            color: beige;
+            background: $light-color;
+            border-radius: 50%;
+            margin-bottom: 0.5rem;
+           }
+           h3{
+            font-size: 2.2rem;
+            padding: 1rem 0;
+           }
+    }
+}
 
 
 

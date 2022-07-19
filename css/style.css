@@ -507,6 +507,45 @@ section {
   align-self: flex-end;
 }
 
+.heading {
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 4rem;
+  color: black;
+}
+.heading span {
+  color: #007bce;
+}
+
+.services .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.services .box-container .box {
+  background: #b9e3ff;
+  padding: 3rem;
+  text-align: center;
+  border-radius: 33% 67% 70% 30%/30% 30% 70% 70%;
+}
+.services .box-container .box:hover {
+  border-radius: 15%;
+}
+.services .box-container .box i {
+  height: 6.5rem;
+  width: 6.5rem;
+  line-height: 6.5rem;
+  font-size: 3rem;
+  color: beige;
+  background: #007bce;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+.services .box-container .box h3 {
+  font-size: 2.2rem;
+  padding: 1rem 0;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
