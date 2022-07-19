@@ -557,10 +557,12 @@ body{
 .bottom-btn{
     display: flex;
     align-self: flex-end;
+    z-index: 1;
 }
 
 //Services section
 .heading{
+    margin-top: 0;
     padding-bottom: 2rem;
     text-align: center;
     font-size: 4rem;
@@ -569,14 +571,19 @@ body{
         color: $light-color;
      }
     }
+
+.services{
+    
+    background: #b9e3ff;
+    background-size: cover;
+}
 .services .box-container{
     @include grid(30rem);
-
     .box{
-        background: #b9e3ff;
-        padding: 3rem;
+        background: #ffffff;
+        padding: 2.5rem;
         text-align: center;
-        border-radius: 33% 67% 70% 30% / 30% 30% 70% 70% ;
+        border-radius: 33% 67% 35% 30% / 30% 30% 70% 70% ;
         &:hover{
             border-radius: 15%;
         }
@@ -607,6 +614,9 @@ body{
 @media (max-width: 991px) {
     html{
         font-size: 55%;
+    }
+    .division{
+        width: 100%;
     }
     .header{
         padding: 2rem;
