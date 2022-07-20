@@ -561,10 +561,8 @@ body{
 }
 
 //Services section
-
 .heading{
-    margin-top: 5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     text-align: center;
     font-size: 4rem;
     color: black;
@@ -572,15 +570,12 @@ body{
         color: $light-color;
      }
     }
-    .services{
-        background-color: rgb(182, 226, 253);
-        
-    }
+   
 .services .box-container{
 
     @include grid(30rem);
     .box{
-        background: #ffffff;
+        background:rgb(182, 226, 253);
         padding: 2.5rem;
         text-align: center;
         border-radius: 33% 67% 35% 30% / 30% 30% 70% 70% ;
