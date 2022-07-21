@@ -393,6 +393,10 @@ section {
   height: 0.5rem;
 }
 
+.shop {
+  background: url(/assets/polotno\ \(3\).png) no-repeat;
+  background-size: cover;
+}
 .shop .heading {
   padding-bottom: 2rem;
   text-align: center;
@@ -524,8 +528,8 @@ section {
   gap: 1.5rem;
 }
 .services .box-container .box {
-  background: #B6E2FD;
-  padding: 2.5rem;
+  background: rgb(236, 236, 236);
+  padding: 2rem;
   text-align: center;
   border-radius: 33% 67% 35% 30%/30% 30% 70% 70%;
 }
@@ -567,6 +571,21 @@ section {
   border-radius: 0.5rem;
   margin-bottom: 2rem;
   background: #bdd9ec;
+}
+.plan .box-container .box .btn {
+  position: absolute;
+  bottom: -2rem;
+  right: 2rem;
+  background: white;
+}
+.plan .box-container .box .title {
+  text-align: center;
+  color: #007bce;
+  font-size: 2rem;
+}
+.plan .box-container .box i {
+  font-size: 1.5rem;
+  color: #007bce;
 }
 
 @media (max-width: 991px) {

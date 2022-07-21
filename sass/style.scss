@@ -346,6 +346,7 @@ body{
 }
 
 //Dog and cat food section
+
 .dog-food, .cat-food {
     display: flex;
     align-items: center; 
@@ -437,6 +438,8 @@ body{
 }
 // Shop section
 .shop{
+    background: url(/assets/polotno\ \(3\).png) no-repeat;
+    background-size: cover;
     .heading{
     padding-bottom: 2rem;
     text-align: center;
@@ -576,8 +579,8 @@ body{
 
     @include grid(30rem);
     .box{
-        background:$lighter-color;
-        padding: 2.5rem;
+        background: rgb(236, 236, 236);
+        padding: 2rem;
         text-align: center;
         border-radius: 33% 67% 35% 30% / 30% 30% 70% 70% ;
         &:hover{
@@ -619,8 +622,31 @@ body{
         border-radius: 0.5rem;
         margin-bottom: 2rem;
         background: #bdd9ec;
+
+        .btn{
+            position: absolute;
+            bottom: -2rem; right: 2rem;
+            background: white;
+        }
+        .title{
+            text-align: center;
+            color: $light-color;
+            font-size: 2rem;
+        }
+        i{
+            font-size: 1.5rem;
+            color: $light-color;
+        }
+
     }
 }
+
+
+
+
+
+
+
 
 
 
