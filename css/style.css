@@ -586,11 +586,7 @@ section {
 .plan .box-container .box .title {
   text-align: center;
   color: #242423;
-  font-size: 3.5rem;
-}
-.plan .box-container .box .nice-icon {
-  display: flex;
-  text-align: center;
+  font-size: 3rem;
 }
 .plan .box-container .box i {
   font-size: 3.5rem;
@@ -613,7 +609,54 @@ section {
 }
 .plan .box-container .box .amount span {
   color: #007bce;
-  font-size: 5rem;
+  font-size: 4rem;
+}
+
+.contact {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  background: url(/assets/polotno\ \(2\).png) no-repeat;
+  background-size: cover;
+}
+.contact .image {
+  flex: 1 1 40rem;
+}
+.contact .image img {
+  width: 100%;
+}
+.contact form {
+  flex: 1 1 40rem;
+  padding: 2rem 7%;
+}
+.contact form .btn {
+  width: 100%;
+  text-align: center;
+}
+.contact form .btn:hover {
+  background: #242423;
+}
+.contact form h3 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  color: #242423;
+}
+.contact form .box, .contact form textarea {
+  width: 100%;
+  border-bottom: 0.2rem solid #242423;
+  border-width: 0.1rem;
+  font-size: 1.6rem;
+  text-transform: none;
+  color: black;
+  padding: 1.5rem 0;
+  background: transparent;
+  margin: 1rem 0;
+}
+.contact form textarea {
+  height: 10rem;
+  resize: none;
 }
 
 @media (max-width: 991px) {

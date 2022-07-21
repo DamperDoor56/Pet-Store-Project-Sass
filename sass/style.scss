@@ -635,11 +635,7 @@ body{
         .title{
             text-align: center;
             color: $dark;
-            font-size: 3.5rem;
-        }
-        .nice-icon{
-            display: flex;
-            text-align:center ;
+            font-size: 3rem;
         }
         i{
             font-size: 3.5rem;
@@ -662,10 +658,58 @@ body{
 
             span{
                 color: $light-color;
-                font-size: 5rem;
+                font-size: 4rem;
             }
         }
 
+    }
+}
+
+//Contact section
+
+.contact{
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:3rem;
+    background: url(/assets/polotno\ \(2\).png) no-repeat;
+    background-size: cover;
+
+    .image{
+        flex: 1 1 40rem;
+
+        img{
+            width: 100%;
+        }
+    }
+    form{
+        flex: 1 1 40rem;
+        padding: 2rem 7%;
+
+        .btn{
+            @include form-btn();
+        }
+        h3{
+            font-size: 3rem;
+            padding-bottom: 1rem;
+            color: $dark;
+        }
+        .box, textarea{
+            width: 100%;
+            border-bottom: $border;
+            border-width: 0.1rem;
+            font-size: 1.6rem;
+            text-transform: none;
+            color: black;
+            padding: 1.5rem 0;
+            background: transparent;
+            margin: 1rem 0;
+        }
+        textarea{
+            height: 10rem;
+            resize: none;
+        }
     }
 }
 
