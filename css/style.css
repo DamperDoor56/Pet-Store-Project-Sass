@@ -427,6 +427,9 @@ section {
 .shop .box-container .box:hover .image img {
   transform: scale(1.1);
 }
+.shop .box-container .box:hover .icons {
+  transform: translateX(-1rem);
+}
 .shop .box-container .box .content {
   width: 100%;
   background-color: white;
@@ -439,7 +442,9 @@ section {
 .shop .box-container .box .icons {
   position: absolute;
   top: 1rem;
-  z-index: 100;
+  right: 2rem;
+  z-index: 10;
+  transform: translateX(5rem);
 }
 .shop .box-container .box .icons i {
   font-size: 2rem;
