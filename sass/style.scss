@@ -14,6 +14,7 @@
 $dark: #242423;
 $white: #fff;
 $light-color: #007bce;
+$lighter-color:#B6E2FD;
 $ligth-bg: #eee;
 $border: .2rem solid #242423;
 $box-shadow: 0 0.5rem 1rem rgba(3, 3, 3, 0.301);
@@ -575,7 +576,7 @@ body{
 
     @include grid(30rem);
     .box{
-        background:rgb(182, 226, 253);
+        background:$lighter-color;
         padding: 2.5rem;
         text-align: center;
         border-radius: 33% 67% 35% 30% / 30% 30% 70% 70% ;
@@ -598,7 +599,28 @@ body{
            }
     }
 }
+//adopt
+#video{
+    height: 80vh;
+    background: url(/assets/polotno\ \(3\).png) no-repeat;
+    background-size: cover;
+    iframe{
+        border-radius: 2.5rem;
+    }
+}
+//plan section
 
+.plan .box-container{
+    @include grid(30rem);
+
+    .box{
+        position: relative;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2rem;
+        background: #bdd9ec;
+    }
+}
 
 
 
