@@ -782,12 +782,14 @@ body{
         display: none;
     }
     .Mini{
-        background-color: #242423;
-        background-image: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 1rem;
     }
     .Mini2{
-        background-color: #242423;
-        background-image: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 1rem;
     }
     iframe{
         width: 100%;
