@@ -769,7 +769,7 @@ section {
 }
 @media (max-width: 450px) {
   .wave {
-    bottom: -8%;
+    bottom: -7%;
   }
   html {
     font-size: 50%;
