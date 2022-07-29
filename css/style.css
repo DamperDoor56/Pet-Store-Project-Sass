@@ -733,7 +733,6 @@ section {
     padding: 5rem 2rem;
   }
   .home {
-    height: 100%;
     justify-content: center;
     background: linear-gradient(rgb(174, 238, 229), rgb(66, 221, 169), rgb(11, 224, 224));
   }
