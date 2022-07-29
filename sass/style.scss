@@ -762,15 +762,12 @@ body{
 
 
 
-
-
-
-
-
-
 //media queries for mobile
 
 @media (max-width: 991px) {
+    .wave{
+        display: none;
+    }
     .Mini{
         background-color: #242423;
         background-image: none;
@@ -839,10 +836,5 @@ body{
     }
     .header .login-form{
         width: 90%;
-    }
-}
-@media only screen and (width: 340px){
-    .wave{
-        bottom: -8%;
     }
 }
