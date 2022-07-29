@@ -776,11 +776,13 @@ body{
         display: none;
     }
     .Mini{
+        height: auto;
         background-size:cover;
         background-repeat: no-repeat;
         background-position: 1rem;
     }
     .Mini2{
+        height: auto;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 1rem;
@@ -848,7 +850,7 @@ body{
     .Mini2{
         background-size: cover;
         background-repeat: no-repeat;
-        width: 100%;
+        background-position: 0rem;
     }
     html{
         font-size: 50%;
