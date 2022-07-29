@@ -277,7 +277,7 @@ body{
  // Home section
 
  .home{
-    height: 88vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -286,16 +286,19 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    .wave{
-        position: absolute ; 
-        bottom: 0; left: 0% ;
-        width: 100%;
-        height: 10rem;
-    }
+    padding: 0% !important;
  }
+ .wave{
+    position: absolute ; 
+    bottom: 0%; left: 0%;
+    width: 100%;
+    height: 10rem;
+    padding: 0 !important;
+}
  section{
     padding: 5rem;
  }
+
  .content{
     width: 50rem;
     margin-left: 2.5rem;
@@ -792,6 +795,7 @@ body{
         padding: 5rem 2rem;
      }
     .home{
+        height: 100%;
         justify-content: center;
         background: linear-gradient(rgb(174, 238, 229),rgb(66, 221, 169),rgb(11, 224, 224));
 
