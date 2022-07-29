@@ -719,8 +719,8 @@ section {
     display: none;
   }
   .Mini {
-    height: 3vh;
-    background-size: cover;
+    height: 4vh;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: 1rem;
   }
