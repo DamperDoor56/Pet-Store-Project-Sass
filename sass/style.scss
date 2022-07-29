@@ -277,7 +277,7 @@ body{
  // Home section
 
  .home{
-    min-height: 100vh;
+    height: 88vh;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -286,6 +286,12 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    .wave{
+        position: absolute ; 
+        bottom: 0; left: 0% ;
+        width: 100%;
+        height: 10rem;
+    }
  }
  section{
     padding: 5rem;
@@ -306,12 +312,7 @@ body{
         @include white-btn();
     }
 }
-.wave{
-    position: absolute ; 
-    bottom: 0; left: 0% ;
-    width: 100%;
-    height: 10rem;
-}
+
 
 //About Section
 .about{
