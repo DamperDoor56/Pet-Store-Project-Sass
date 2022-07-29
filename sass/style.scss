@@ -281,12 +281,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background: url(/assets/beautiful-pet-portrait-dog.jpg);
-    background-position: -5rem ;
-    background-size: cover;
-    position: relative;
- }
 
+    .PUTO{
+        img{}
+        width: 100rem;
+        height: auto;
+        z-index: 0;
+     }
+ }
+ 
  section{
     padding: 5rem;
  }
@@ -768,11 +771,11 @@ body{
 
 @media (max-width: 991px) {
     .Mini{
-        background-color: gray;
+        background-color: #242423;
         background-image: none;
     }
     .Mini2{
-        background-color: gray;
+        background-color: #242423;
         background-image: none;
     }
     iframe{
