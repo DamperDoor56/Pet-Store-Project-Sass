@@ -708,6 +708,18 @@ section {
   font-family: "Press Start 2P", cursive;
 }
 
+@media (max-width: 1280px) {
+  .navbar {
+    display: flex;
+    justify-items: space-between;
+  }
+  .navbar a {
+    font-size: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    color: #242423;
+  }
+}
 @media (max-width: 991px) {
   .wave {
     display: none;
@@ -741,7 +753,7 @@ section {
   }
   .home .content {
     text-align: center;
-    padding-bottom: 5rem;
+    padding: 5rem;
   }
   .home .content h3 {
     font-size: 4.5rem;
