@@ -751,7 +751,7 @@ section {
   }
   .home {
     justify-content: center;
-    background: linear-gradient(rgb(174, 238, 229), rgb(66, 221, 169), rgb(11, 224, 224));
+    background: linear-gradient(rgb(148, 204, 221), rgb(146, 172, 228), rgb(11, 146, 224));
   }
   .home .content {
     text-align: center;
