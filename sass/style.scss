@@ -612,7 +612,7 @@ body{
 //adopt
 #video{
     width: auto;
-    min-height: 80vh;
+    height: auto;
     background: url(/assets/polotno\ \(3\).png) no-repeat;
     background-size: cover;
     iframe{
@@ -776,7 +776,7 @@ body{
         background-image: none;
     }
     iframe{
-        width: 140%;
+        width: 100%;
     }
     html{
         font-size: 55%;
