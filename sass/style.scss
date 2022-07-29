@@ -407,14 +407,11 @@ body{
     margin-bottom: 5rem;
     span{
         color: $light-color;
+        text-decoration: underline;
+        text-decoration-color: #007bce;
     }
     h3{
         font-size: 3.5rem;
-        .hre{
-            width: 100%;
-            background: $light-color;
-            height: 0.5rem;
-        }
     }
 }
 .Mini2{
@@ -429,14 +426,11 @@ body{
     margin-bottom: 5rem;
     span{
         color: $light-color;
+        text-decoration: underline;
+        text-decoration-color: #007bce;
     }
     h3{
         font-size: 3.5rem;
-        .hre{
-            width: 100%;
-            background: $light-color;
-            height: 0.5rem;
-        }
     }
     
 }
@@ -782,6 +776,7 @@ body{
         display: none;
     }
     .Mini{
+        width: 100%;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 1rem;

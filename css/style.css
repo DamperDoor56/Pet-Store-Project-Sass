@@ -365,14 +365,11 @@ section {
 }
 .Mini span {
   color: #007bce;
+  text-decoration: underline;
+  text-decoration-color: #007bce;
 }
 .Mini h3 {
   font-size: 3.5rem;
-}
-.Mini h3 .hre {
-  width: 100%;
-  background: #007bce;
-  height: 0.5rem;
 }
 
 .Mini2 {
@@ -387,14 +384,11 @@ section {
 }
 .Mini2 span {
   color: #007bce;
+  text-decoration: underline;
+  text-decoration-color: #007bce;
 }
 .Mini2 h3 {
   font-size: 3.5rem;
-}
-.Mini2 h3 .hre {
-  width: 100%;
-  background: #007bce;
-  height: 0.5rem;
 }
 
 .shop {
@@ -725,6 +719,7 @@ section {
     display: none;
   }
   .Mini {
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 1rem;
