@@ -776,7 +776,7 @@ body{
         display: none;
     }
     .Mini{
-        background-size: cover;
+        background-size:cover;
         background-repeat: no-repeat;
         background-position: 1rem;
     }
@@ -840,6 +840,16 @@ body{
     }
 }
 @media (max-width: 450px) {
+    .Mini{
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: 0rem;
+    }
+    .Mini2{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0rem;
+    }
     html{
         font-size: 50%;
     }
