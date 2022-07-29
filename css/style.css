@@ -732,7 +732,7 @@ section {
   }
   .home {
     justify-content: center;
-    background-position: right;
+    background: linear-gradient(rgb(152, 233, 222), rgb(66, 221, 169), rgb(11, 224, 224));
   }
   .home .content {
     text-align: center;
