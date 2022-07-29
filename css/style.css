@@ -242,10 +242,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: url(/assets/beautiful-pet-portrait-dog.jpg);
-  background-position: -5rem;
+  background: url(/assets/beautiful-pet-portrait-dog.jpg) no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 section {
@@ -562,7 +560,7 @@ section {
 
 #video {
   width: auto;
-  min-height: 80vh;
+  height: auto;
   background: url(/assets/polotno\ \(3\).png) no-repeat;
   background-size: cover;
 }
@@ -707,15 +705,15 @@ section {
 
 @media (max-width: 991px) {
   .Mini {
-    background-color: gray;
+    background-color: #242423;
     background-image: none;
   }
   .Mini2 {
-    background-color: gray;
+    background-color: #242423;
     background-image: none;
   }
   iframe {
-    width: 140%;
+    width: 100%;
   }
   html {
     font-size: 55%;
