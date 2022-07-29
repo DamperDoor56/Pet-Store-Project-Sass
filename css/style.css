@@ -709,6 +709,9 @@ section {
 }
 
 @media (max-width: 991px) {
+  .wave {
+    bottom: -2%;
+  }
   .Mini {
     background-color: #242423;
     background-image: none;
