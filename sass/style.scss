@@ -771,9 +771,6 @@ body{
 //media queries for mobile
 
 @media (max-width: 991px) {
-    .wave{
-        bottom: -2%;
-    }
     .Mini{
         background-color: #242423;
         background-image: none;
@@ -837,6 +834,9 @@ body{
     }
 }
 @media (max-width: 450px) {
+    .wave{
+        bottom: -5%;
+    }
     html{
         font-size: 50%;
     }
