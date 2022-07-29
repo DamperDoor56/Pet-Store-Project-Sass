@@ -719,13 +719,13 @@ section {
     display: none;
   }
   .Mini {
-    height: auto;
+    height: 3vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 1rem;
   }
   .Mini2 {
-    height: auto;
+    height: 3vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 1rem;
