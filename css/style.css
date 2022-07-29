@@ -768,14 +768,16 @@ section {
   }
 }
 @media (max-width: 450px) {
-  .wave {
-    bottom: -8%;
-  }
   html {
     font-size: 50%;
   }
   .header .login-form {
     width: 90%;
+  }
+}
+@media only screen and (width: 400px) {
+  .wave {
+    bottom: -8%;
   }
 }
 
